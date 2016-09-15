@@ -1,20 +1,21 @@
 {
-  "name": "mammoth",
-  "version": "1.1.0",
-  "author": "Michael Williamson <mike@zwobble.org>",
-  "description": "Convert Word documents from docx to simple HTML and Markdown",
+  "name": "mammoth-colors",
+  "version": "1.0.0",
+  "author": "Semyon Babushkin <babushkin.semyon@gmail.com>",
+  "description": "Convert Word documents from docx to simple HTML and Markdown with colors support. Forked from mammoth",
   "keywords": [
     "docx",
     "html",
     "office",
     "word",
     "markdown",
-    "md"
+    "md",
+    "colors"
   ],
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mwilliamson/mammoth.js.git"
+    "url": "https://github.com/sbabushkin/mammoth-colors.js.git"
   },
   "dependencies": {
     "bluebird": "~3.4.0",
@@ -24,7 +25,8 @@
     "argparse": "~1.0.3",
     "jszip": "~2.5.0",
     "xmlbuilder": "~2.6.4",
-    "path-is-absolute": "^1.0.0"
+    "path-is-absolute": "^1.0.0",
+    "clone": "~1.0.2"
   },
   "devDependencies": {
     "mocha": "~2.2.5",
